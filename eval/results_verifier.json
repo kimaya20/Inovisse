@@ -1,0 +1,27 @@
+[
+  {
+    "error_type": "cross-source conflict",
+    "injected": 1,
+    "caught": 1
+  },
+  {
+    "error_type": "unsupported claim",
+    "injected": 2,
+    "caught": 2
+  },
+  {
+    "error_type": "outdated source",
+    "injected": 2,
+    "caught": 2
+  },
+  {
+    "error_type": "wrong year (near-miss)",
+    "injected": 1,
+    "caught": 1
+  },
+  {
+    "error_type": "wrong arithmetic",
+    "injected": 1,
+    "caught": 1
+  }
+]

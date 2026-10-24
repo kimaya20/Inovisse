@@ -1,0 +1,145 @@
+{
+  "note": "DRAFT — review every label before using scores as final.",
+  "cases": [
+    {
+      "id": "c01",
+      "claim": "Net income was $10.4 million in FY2024",
+      "passage": "Net income was $10.4 million in fiscal 2024, up 5.05% from $9.9 million in fiscal 2023.",
+      "label": "supported",
+      "category": "normal"
+    },
+    {
+      "id": "c02",
+      "claim": "Revenue was $99.9 million in fiscal 2024",
+      "passage": "Revenue was $99.9 million in fiscal 2024, up 11.0% from $90.0 million in fiscal 2023.",
+      "label": "supported",
+      "category": "normal"
+    },
+    {
+      "id": "c03",
+      "claim": "Revenue grew 11.0% in fiscal 2024",
+      "passage": "Revenue was $99.9 million in fiscal 2024, up 11.0% from $90.0 million in fiscal 2023.",
+      "label": "supported",
+      "category": "normal"
+    },
+    {
+      "id": "c04",
+      "claim": "Total debt was $38 million in fiscal 2024",
+      "passage": "Total debt was $38 million in fiscal 2024, up 18.75% from $32 million in fiscal 2023.",
+      "label": "supported",
+      "category": "normal"
+    },
+    {
+      "id": "c05",
+      "claim": "Total equity was $58 million in fiscal 2024",
+      "passage": "Total equity was $58 million in fiscal 2024, up 7.4% from $54 million in fiscal 2023.",
+      "label": "supported",
+      "category": "normal"
+    },
+    {
+      "id": "c06",
+      "claim": "Operating income was $14.0 million in fiscal 2024",
+      "passage": "Operating income was $14.0 million in fiscal 2024, up 3.7% from $13.5 million in fiscal 2023.",
+      "label": "supported",
+      "category": "normal"
+    },
+    {
+      "id": "c07",
+      "claim": "Revenue grew 18% in fiscal 2024",
+      "passage": "Revenue grew 18% in fiscal 2024 as customers restocked and new programs ramped.",
+      "label": "supported",
+      "category": "planted"
+    },
+    {
+      "id": "c08",
+      "claim": "Management expects operating margin to remain stable",
+      "passage": "Management expects operating margin to remain stable. That outlook is the centerpiece of our near-term thesis and assumes no sharp change in mix or input costs.",
+      "label": "supported",
+      "category": "planted"
+    },
+    {
+      "id": "c09",
+      "claim": "Revenue grew 18% in FY2024",
+      "passage": "Revenue was $99.9 million in fiscal 2024, up 11.0% from $90.0 million in fiscal 2023.",
+      "label": "contradicted",
+      "category": "planted"
+    },
+    {
+      "id": "c10",
+      "claim": "Debt levels are declining",
+      "passage": "Total debt was $38 million in fiscal 2024, up 18.75% from $32 million in fiscal 2023.",
+      "label": "contradicted",
+      "category": "planted"
+    },
+    {
+      "id": "c11",
+      "claim": "Revenue grew 11.0% in fiscal 2024",
+      "passage": "Revenue grew 18% in fiscal 2024 as customers restocked and new programs ramped.",
+      "label": "contradicted",
+      "category": "normal"
+    },
+    {
+      "id": "c12",
+      "claim": "Net income was $8.0 million in FY2024",
+      "passage": "Net income was $10.4 million in fiscal 2024, up 5.05% from $9.9 million in fiscal 2023.",
+      "label": "contradicted",
+      "category": "near_miss"
+    },
+    {
+      "id": "c13",
+      "claim": "Total debt was $32 million in fiscal 2024",
+      "passage": "Total debt was $38 million in fiscal 2024, up 18.75% from $32 million in fiscal 2023.",
+      "label": "contradicted",
+      "category": "near_miss"
+    },
+    {
+      "id": "c14",
+      "claim": "Operating income was $13.5 million in fiscal 2024",
+      "passage": "Operating income was $14.0 million in fiscal 2024, up 3.7% from $13.5 million in fiscal 2023.",
+      "label": "contradicted",
+      "category": "near_miss"
+    },
+    {
+      "id": "c15",
+      "claim": "Net income was $10.4 million in FY2024",
+      "passage": "Net income was $9.9 million in fiscal 2023, up 23.75% from $8.0 million in fiscal 2022.",
+      "label": "unrelated",
+      "category": "near_miss"
+    },
+    {
+      "id": "c16",
+      "claim": "Revenue was $99.9 million in fiscal 2024",
+      "passage": "Revenue was $90.0 million in fiscal 2023, up 12.5% from $80.0 million in fiscal 2022.",
+      "label": "unrelated",
+      "category": "near_miss"
+    },
+    {
+      "id": "c17",
+      "claim": "Revenue was $10.4 million in fiscal 2024",
+      "passage": "Net income was $10.4 million in fiscal 2024, up 5.05% from $9.9 million in fiscal 2023.",
+      "label": "unrelated",
+      "category": "near_miss"
+    },
+    {
+      "id": "c18",
+      "claim": "Debt levels are declining",
+      "passage": "Competition in industrial components is intense. Larger rivals and low-cost importers may force price reductions or take share, which would pressure margins and could slow the revenue growth reported above.",
+      "label": "unrelated",
+      "category": "planted"
+    },
+    {
+      "id": "c19",
+      "claim": "Operating margin will expand in fiscal 2024",
+      "passage": "The company highlighted continued momentum in its core industrial markets and pointed to a healthy backlog heading into the next fiscal year.",
+      "label": "unrelated",
+      "category": "normal"
+    },
+    {
+      "id": "c20",
+      "claim": "Revenue grew 11.0% in fiscal 2024",
+      "passage": "Customer concentration is a material risk. A small number of OEM customers account for a large share of sales, and the loss of any major customer, or a sustained cut in their orders, would reduce revenue and operating income.",
+      "label": "unrelated",
+      "category": "normal"
+    }
+  ]
+}

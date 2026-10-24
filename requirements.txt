@@ -1,0 +1,7 @@
+sentence-transformers
+faiss-cpu
+pandas
+streamlit
+pypdf
+requests
+pytest

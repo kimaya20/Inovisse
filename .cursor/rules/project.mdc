@@ -1,0 +1,19 @@
+---
+description: Project contract for the trustworthy financial research system
+alwaysApply: true
+---
+
+# Project rules
+
+- Plain Python modules only; simple readable code, type hints, short docstrings, small functions.
+- All numbers are computed with pandas in `src/ratios.py`. Never ask the LLM to calculate.
+- All LLM calls go through `ask()` in `src/llm.py`.
+- `src/schema.py` is the contract between modules. Never rename its fields.
+- Constants such as tolerances and thresholds come only from `src/config.py`. Never hard-code them.
+- Compare unrounded values; never round before comparing.
+- Status precedence when several apply: unsupported > conflict > contradicted > outdated > supported.
+- Unsupported claims are never dropped. Their reason says 'no evidence found'.
+- No trading, order or execution functionality anywhere. Every report starts with the banner: AI-generated, requires human review.
+- Every analyst action is logged through `src/audit.py`.
+- Must run on CPU and offline (`HF_HUB_OFFLINE=1` after the first model download).
+- Do not add features I did not ask for. After each task, list the files you changed and the exact command to run its tests.
