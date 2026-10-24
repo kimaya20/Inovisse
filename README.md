@@ -1,1 +1,0 @@
-# Trustworthy Financial Research System
