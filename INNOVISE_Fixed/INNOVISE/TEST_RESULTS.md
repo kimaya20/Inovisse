@@ -1,0 +1,1 @@
+Focused regression run: 18 passed. Python compilation passed. Live Ollama and full MiniLM integration were not exercised. Command: python -m pytest tests/test_regressions.py tests/test_schema.py tests/test_ratios.py tests/test_llm.py -q

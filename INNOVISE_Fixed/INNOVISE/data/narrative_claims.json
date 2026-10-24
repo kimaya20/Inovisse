@@ -1,0 +1,42 @@
+[
+  {
+    "claim_id": "n1",
+    "claim": "Revenue grew 18% in FY2024",
+    "metric": "revenue_growth",
+    "period": "FY2024",
+    "value": 0.18,
+    "source_id": "press_release_fy2024",
+    "page_section": "p.1",
+    "date": "2025-02-10"
+  },
+  {
+    "claim_id": "n2",
+    "claim": "Debt levels are declining",
+    "metric": "total_debt_trend",
+    "period": "FY2024",
+    "value": null,
+    "source_id": null,
+    "page_section": "",
+    "date": null
+  },
+  {
+    "claim_id": "n3",
+    "claim": "Management expects operating margin to remain stable",
+    "metric": "operating_margin_outlook",
+    "period": "FY2024",
+    "value": null,
+    "source_id": "analyst_note_fy2022",
+    "page_section": "",
+    "date": "2023-01-15"
+  },
+  {
+    "claim_id": "n4",
+    "claim": "Net income was $10.4 million in FY2024",
+    "metric": "net_income",
+    "period": "FY2024",
+    "value": 10.4,
+    "source_id": "acme_10k_fy2024",
+    "page_section": "Item 7",
+    "date": "2025-02-28"
+  }
+]
